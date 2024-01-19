@@ -25,11 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "test:challenge-1": "jest --config=jest.problem-solving.config.js ./problem-solving/challenge-1/index.spec.ts",
-    "test:challenge-2": "jest --config=jest.problem-solving.config.js ./problem-solving/challenge-2/index.spec.ts",
-    "test:challenge-3": "jest --config=jest.problem-solving.config.js ./problem-solving/challenge-3/index.spec.ts",
-    "test:all-challenges": "jest --config=jest.problem-solving.config.js ./problem-solving"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
