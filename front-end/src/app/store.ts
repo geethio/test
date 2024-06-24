@@ -1,6 +1,6 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import { monstersReducer } from '../reducers/monsters/monsters.reducer';
-import { monstersReducerExtended } from '../reducers/monsters/monsters.reducer.extended';
+import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import { monstersReducer } from "../reducers/monsters/monsters.reducer";
+import { monstersReducerExtended } from "../reducers/monsters/monsters.reducer.extended";
 
 export const store = configureStore({
   reducer: {

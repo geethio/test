@@ -1,4 +1,4 @@
-import { Monster } from './monster.interface';
+import { Monster } from "./monster.interface";
 
 export interface Battle {
   winner: Monster;

@@ -1,6 +1,6 @@
-import { createReducer } from '@reduxjs/toolkit';
-import { Monster } from '../../models/interfaces/monster.interface';
-import { fetchMonstersData, setSelectedMonster } from './monsters.actions';
+import { createReducer } from "@reduxjs/toolkit";
+import { Monster } from "../../models/interfaces/monster.interface";
+import { fetchMonstersData, setSelectedMonster } from "./monsters.actions";
 
 interface MonsterState {
   monsters: Monster[];

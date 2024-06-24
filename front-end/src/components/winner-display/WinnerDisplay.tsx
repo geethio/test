@@ -1,5 +1,5 @@
-import { WinnerDisplayContainer, WinnerText } from './WinnerDisplay.styled';
-import React from 'react';
+import { WinnerDisplayContainer, WinnerText } from "./WinnerDisplay.styled";
+import React from "react";
 
 type Props = {
   text?: string | undefined;
