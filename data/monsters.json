@@ -1,7 +1,7 @@
 {
     "monsters": [
         {
-            "id": "monster-1",
+            "id": "1",
             "name": "Dead Unicorn",
             "attack": 60,
             "defense": 40,
@@ -11,7 +11,7 @@
             "imageUrl": "https://fsl-assessment-public-files.s3.amazonaws.com/assessment-cc-01/dead-unicorn.png"
         },
         {
-            "id": "monster-2",
+            "id": "2",
             "name": "Old Shark",
             "attack": 50,
             "defense": 20,
@@ -21,7 +21,7 @@
             "imageUrl": "https://fsl-assessment-public-files.s3.amazonaws.com/assessment-cc-01/old-shark.png"
         },
         {
-            "id": "monster-3",
+            "id": "3",
             "name": "Red Dragon",
             "attack": 90,
             "defense": 80,
@@ -31,7 +31,7 @@
             "imageUrl": "https://fsl-assessment-public-files.s3.amazonaws.com/assessment-cc-01/red-dragon.png"
         },
         {
-            "id": "monster-4",
+            "id": "4",
             "name": "Robot Bear",
             "attack": 50,
             "defense": 40,
@@ -41,7 +41,7 @@
             "imageUrl": "https://fsl-assessment-public-files.s3.amazonaws.com/assessment-cc-01/robot-bear.png"
         },
         {
-            "id": "monster-5",
+            "id": "5",
             "name": "Angry Snake",
             "attack": 80,
             "defense": 20,
