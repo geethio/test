@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "20.11.1",
-    "npm": "10.2.4"
+    "node": "20.5.1",
+    "npm": "9.8.0"
   },
   "scripts": {
     "preinstall": "npx check-engine",
