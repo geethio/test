@@ -1,8 +1,16 @@
-import '@testing-library/jest-dom';
+import React from "react";
+import "@testing-library/jest-dom";
+import { render, screen } from "@testing-library/react";
+import { MonsterBattleCard } from "./MonsterBattleCard.extended";
 
-describe('MonsterBattleCardExtended', () => {
-  it('renders the monster card correctly with a monster', () => {
-    // TODO complete tests
-    expect(1).toEqual(2);
+describe("MonsterBattleCard", () => {
+  it("renders the monster card correctly with a monster", () => {
+    render(<MonsterBattleCard title="Red Dragon" />);
+    expect(screen.getByText("Red Dragon")).toBeInTheDocument();
+  });
+
+  it("renders nothing when no title is provided", () => {
+    const { container } = render(<MonsterBattleCard />);
+    expect(container).toHaveTextContent("");
   });
 });

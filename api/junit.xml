@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="5.111">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-07-19T21:41:07" time="2.143" tests="1">
+    <testcase classname=" should contain &quot;/src/models&quot; in modelPaths" name=" should contain &quot;/src/models&quot; in modelPaths" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="MonsterModel" errors="0" failures="0" skipped="0" timestamp="2025-07-19T21:41:07" time="2.206" tests="2">
+    <testcase classname="MonsterModel should map the properties correctly" name="MonsterModel should map the properties correctly" time="0.022">
+    </testcase>
+    <testcase classname="MonsterModel should have relation mapping" name="MonsterModel should have relation mapping" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Battle Model" errors="0" failures="0" skipped="0" timestamp="2025-07-19T21:41:07" time="2.212" tests="1">
+    <testcase classname="Battle Model should have relation mapping" name="Battle Model should have relation mapping" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="BattleController" errors="0" failures="0" skipped="0" timestamp="2025-07-19T21:41:07" time="2.406" tests="1">
+    <testcase classname="BattleController List should list all battles" name="BattleController List should list all battles" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="MonsterController" errors="0" failures="0" skipped="0" timestamp="2025-07-19T21:41:07" time="3.826" tests="1">
+    <testcase classname="MonsterController List should list all monsters" name="MonsterController List should list all monsters" time="0.048">
+    </testcase>
+  </testsuite>
+  <testsuite name="BattleExtendedController" errors="0" failures="0" skipped="0" timestamp="2025-07-19T21:41:07" time="3.991" tests="4">
+    <testcase classname="BattleExtendedController Battle should fail when trying a battle of monsters with an undefined monster" name="BattleExtendedController Battle should fail when trying a battle of monsters with an undefined monster" time="0.017">
+    </testcase>
+    <testcase classname="BattleExtendedController Battle should fail when trying a battle of monsters with an inexistent monster" name="BattleExtendedController Battle should fail when trying a battle of monsters with an inexistent monster" time="0.009">
+    </testcase>
+    <testcase classname="BattleExtendedController Battle should insert a battle of monsters successfully with monster 1 winning" name="BattleExtendedController Battle should insert a battle of monsters successfully with monster 1 winning" time="0.038">
+    </testcase>
+    <testcase classname="BattleExtendedController Battle should insert a battle of monsters successfully with monster 2 winning" name="BattleExtendedController Battle should insert a battle of monsters successfully with monster 2 winning" time="0.024">
+    </testcase>
+  </testsuite>
+</testsuites>
